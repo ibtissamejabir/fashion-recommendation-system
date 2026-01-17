@@ -1,0 +1,19 @@
+# Ignore datasets
+data/
+*.csv
+*.parquet
+*.zip
+
+# Ignore Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Ignore images & media
+*.jpg
+*.png
+*.gif
+*.mp4
+
+# Ignore system files
+.DS_Store
+
