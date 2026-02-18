@@ -7,7 +7,8 @@ BASE_URL = "https://github.com/ibtissamejabir/fashion-recommendation-system/rele
 FILES = [
     "als_model.npz",
     "user_encoder.pkl",
-    "item_encoder.pkl"
+    "item_encoder.pkl",
+    "ncf_model.pth"
 ]
 
 os.makedirs("models", exist_ok=True)
