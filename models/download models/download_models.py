@@ -8,7 +8,8 @@ FILES = [
     "als_model.npz",
     "user_encoder.pkl",
     "item_encoder.pkl",
-    "ncf_model.pth"
+    "ncf_model.pth",
+    "image_embeddings-2.pkl"
 ]
 
 os.makedirs("models", exist_ok=True)
